@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-#
+# coding BY: MOHAMED_OS
 
 # colors
 Color_Off="\e[0m" # Text Reset
@@ -8,14 +8,20 @@ Yellow="\e[0;33m" # Yellow
 Blue='\e[0;34m'   # Blue
 Green='\e[0;32m'  # Green
 
-   echo
+if uname -n | grep -qs "^novaler4k" || uname -n | grep -qs "^multibox"; then
+    opkg update >/dev/null 2>&1
+else
+    clear
+    echo
     echo -e "${Blue}Goodbye ;)${Color_Off}"
     echo
+    exit 1
+fi
 
 ###########################################
 # Configure where we can find things here #
 pyVersion=$(python -c"from sys import version_info; print(version_info[0])")
-SitUrl='https://raw.githubusercontent.com/emil237/Important-plugins/main'
+SitUrl='https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/NovaStore'
 TmpDir='/var/volatile/tmp'
 
 ####################
@@ -47,7 +53,7 @@ fi
 # Build
 if [ -z "$Pkg" ]; then
     clear
-    echo -e "> ${Red}emil Store${Color_Off}"
+    echo -e "> ${Red}Nova Store${Color_Off}"
     echo
     echo "  1 - Cccam"
     echo "  2 - Ncam"
@@ -100,7 +106,9 @@ if [ "$(opkg list-installed "$Pkg" | awk '{ print $3 }')" = "$VerPkg" ]; then
     echo ""
     echo "******************************************************"
     echo "**                                                    "
-    echo -e "**    Script by  : ${Yellow}Emil_Nabil${Color_Off} "
+    echo "**    ${PkgName[3]} : ${VerPkg}                       "
+    echo -e "**    Script by  : ${Yellow}MOHAMED_OS${Color_Off} "
+    echo -e "**    Support    : ${Blue}https://www.novaler.com/${Color_Off} "
     echo "**                                                    "
     echo "******************************************************"
     echo ""
@@ -133,6 +141,10 @@ sync
 echo ""
 echo ""
 echo "******************************************************"
+echo "**                                                    "
+echo "**    ${PkgName[3]} : ${VerPkg}                       "
+echo -e "**    Script by  : ${Yellow}MOHAMED_OS${Color_Off} "
+echo -e "**    Support    : ${Blue}https://www.novaler.com/${Color_Off} "
 echo "**                                                    "
 echo "******************************************************"
 echo ""
