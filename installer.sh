@@ -21,7 +21,7 @@ fi
 ###########################################
 # Configure where we can find things here #
 pyVersion=$(python -c"from sys import version_info; print(version_info[0])")
-SitUrl='https://raw.githubusercontent.com/MOHAMED19OS/Enigma2_Store/main/NovaStore'
+SitUrl='https://raw.githubusercontent.com/emil237/Important-plugins/main'
 TmpDir='/var/volatile/tmp'
 
 ####################
