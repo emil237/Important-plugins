@@ -73,16 +73,8 @@ if [ -z "$Pkg" ]; then
         echo
         echo -e "${Blue}Goodbye ;)${Color_Off}"
         echo
-        exit 1
         ;;
     *)
-        echo "Invalid option"
-        sleep 3
-        exit 1
-        ;;
-    esac
-fi
-
 ####################
 
 IFS='-'
