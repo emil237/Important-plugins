@@ -8,16 +8,6 @@ Yellow="\e[0;33m" # Yellow
 Blue='\e[0;34m'   # Blue
 Green='\e[0;32m'  # Green
 
-if uname -n | grep -qs "^novaler4k" || uname -n | grep -qs "^multibox"; then
-    opkg update >/dev/null 2>&1
-else
-    clear
-    echo
-    echo -e "${Blue}Goodbye ;)${Color_Off}"
-    echo
-    exit 1
-fi
-
 ###########################################
 # Configure where we can find things here #
 pyVersion=$(python -c"from sys import version_info; print(version_info[0])")
