@@ -70,11 +70,7 @@ if [ -z "$Pkg" ]; then
     "8") Pkg=enigma2-plugin-extensions-keyadder ;;
     x)
         clear
-        echo
-        echo -e "${Blue}Goodbye ;)${Color_Off}"
-        echo
-        ;;
-    *)
+
 ####################
 
 IFS='-'
@@ -104,7 +100,7 @@ else
 fi
 
 echo -e "${Yellow}Downloading ${PkgName[3]} plugin Please Wait ......${Color_Off}"
-wget --no-check-certificate $SitUrl/"${Pkg}"_"${VerPkg}"_all.ipk -qP $TmpDir
+wget --no-check-certificate $SitUrl/"${Pkg}"_all.ipk -qP $TmpDir
 
 echo -e "${Yellow}Insallling ${PkgName[3]} plugin Please Wait ......${Color_Off}"
 opkg install --force-overwrite $TmpDir/"${Pkg}"_"${VerPkg}"_all.ipk
