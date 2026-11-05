@@ -612,6 +612,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CCcamInfo'"
     },
     {
+      "name": "ChannelLingo (مترجم القنوات الاجنبيه)",
+      "cmd": "wget https://raw.githubusercontent.com/Saiedf/ChannelLingo/main/Release/UNIVERSAL/installer_ChannelLingo_auto.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/ChannelLingo",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ChannelLingo'"
+    },
+    {
       "name": "Ciplushelper (تشغيل الكامات الرسمية)",
       "cmd": "wget https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper",
