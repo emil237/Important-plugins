@@ -120,7 +120,7 @@
   "panels": [
     {
       "name": "Ajpanel",
-      "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/ajpanel/installer1.sh | /bin/sh"
+      "cmd": "wget --no-check-certificate -O - https://github.com/AMAJamry/AJPanel/raw/main/installer.sh | /bin/sh"
     },
     {
       "name": "dreamosat-downloader",
@@ -166,7 +166,7 @@
   "plugins": [
     {
       "name": "ArabicSavior",
-      "cmd": "wget --no-check-certificate -O - http://dreambox4u.com/emilnabil237/plugins/ArabicSavior/installer.sh | /bin/sh"
+      "cmd": "wget --no-check-certificate -O - https://github.com/fairbird/ArabicSavior/raw/refs/heads/main/installer.sh | /bin/sh"
     },
     {
       "name": "Abertis-Auto-Switcher",
