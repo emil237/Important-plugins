@@ -2533,11 +2533,6 @@
       "path": "/usr/script/EMU-ncam.sh"
     },
     {
-      "name": "Super Script (تحديث الصورة وتحميل بلجنات مهمة)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Super_Script.sh -O - | /bin/sh",
-      "path": "/usr/script/script/scrip"
-    },
-    {
       "name": "Delete-password",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/scripts-servise/delete-password.sh -O - | /bin/sh",
       "path": "/etc/passwd/pass"
