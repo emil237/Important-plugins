@@ -2468,8 +2468,9 @@
       "path": "/usr/bin/curl"
     },
     {
-      "name": "Super Script  (تحميل الحزم المهمة و الاضافات و البلجنات المهمة)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Backup_All-Images.sh -O - | /bin/sh"
+      "name": "Super Script (تحميل الحزم المهمة و البلجنات والاضافات المهمة)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Backup_All-Images.sh -O - | /bin/sh",
+      "path": "/etc/enigma2/superscript.log"
     },
     {
       "name": "Update Enigma2 All Python (تحميل الحزم المهمة)",
