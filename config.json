@@ -2468,6 +2468,10 @@
       "path": "/usr/bin/curl"
     },
     {
+      "name": "Super Script  (تحميل الحزم المهمة و الاضافات و البلجنات المهمة)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Backup_All-Images.sh -O - | /bin/sh"
+    },
+    {
       "name": "Update Enigma2 All Python (تحميل الحزم المهمة)",
       "cmd": "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh",
       "path": "/usr/bin/python3"
