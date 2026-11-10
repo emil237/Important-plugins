@@ -2479,11 +2479,6 @@
       "path": "/etc/enigma2/superscript.log"
     },
     {
-      "name": "CheckYourReciver (معلومات مهمة عن حالة الجهاز)",
-      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/emilbox_diag.sh -O - | /bin/sh",
-      "path": "/tmp/emildiagnostic"
-    },
-    {
       "name": "Update Enigma2 All Python (تحميل الحزم المهمة)",
       "cmd": "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh",
       "path": "/usr/bin/python3"
