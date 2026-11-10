@@ -191,7 +191,7 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlue'"
     },
     {
-      "name": "SkyBlueSignalPro (بيان أشارة القنوات احترافي)",
+      "name": "SkyBlueSignalPro (بيان اشارة القنوات)",
       "cmd": "wget https://updates.skyblue1.us/e2/install-signal.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueSignal",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueSignal'"
