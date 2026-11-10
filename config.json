@@ -120,7 +120,7 @@
     },
     {
       "name": "ArabicSavior (مصحح اللغة العربية)",
-      "cmd": "wget https://github.com/fairbird/ArabicSavior/raw/refs/heads/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/ArabicSavior/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior'"
     },
@@ -150,7 +150,7 @@
     },
     {
       "name": "Epg Grabber (دليل القنوات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emil182/emil-Nabil/refs/heads/main/Epg-Grabber/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/EPGGrabber",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/EPGGrabber'"
     },
@@ -409,7 +409,7 @@
   "plugins": [
     {
       "name": "ArabicSavior (مصحح اللغة العربية)",
-      "cmd": "wget https://github.com/fairbird/ArabicSavior/raw/refs/heads/main/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/ArabicSavior/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior'"
     },
@@ -757,7 +757,7 @@
     },
     {
       "name": "Epg Grabber (دليل القنوات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/Epg-Grabber/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://raw.githubusercontent.com/emil182/emil-Nabil/refs/heads/main/Epg-Grabber/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/EPGGrabber",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/EPGGrabber'"
     },
@@ -1448,9 +1448,9 @@
   ],
   "other_channels": [
     {
-      "name": "FIFA WORLD CUP 2026_By Hazem-Wahba",
-      "cmd": "wget -q \"--no-check-certificate\" https://dreambox4u.com/emilnabil237/channel/fifa-world/fifa-world.sh -O - | /bin/sh",
-      "path": "/etc/enigma2/fifa"
+      "name": "Bouquets-Ciefp_30w_Abertis",
+      "cmd": "wget -q \"--no-check-certificate\" https://github.com/emil182/emil-Nabil/raw/refs/heads/main/Channels/bouquets-ciefp_30w_abertis/ciefp_30w_abertis.sh -O - | /bin/sh",
+      "path": "/etc/enigma2/ciefp/ciefp"
     },
     {
       "name": "Modded By Emil Nabil",
@@ -3561,7 +3561,7 @@
   "openatv_skins": [
     {
       "name": "Aglare-FHD",
-      "cmd": "wget https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/skins-aglare-fhd/skins-aglare-fhd.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Aglare-FHD",
       "remove_cmd": "rm -rf '/usr/share/enigma2/Aglare-FHD'"
     },
@@ -3757,7 +3757,7 @@
   "openbh_skins": [
     {
       "name": "Aglare-fhd",
-      "cmd": "wget https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd-pli.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/skins-aglare-fhd/skins-aglare-fhd-pli.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Aglare-FHD-PLI",
       "remove_cmd": "rm -rf '/usr/share/enigma2/Aglare-FHD-PLI'"
     },
@@ -3885,7 +3885,7 @@
   "egami_skins": [
     {
       "name": "Aglare-FHD",
-      "cmd": "wget https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/skins-aglare-fhd/skins-aglare-fhd.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Aglare-FHD",
       "remove_cmd": "rm -rf '/usr/share/enigma2/Aglare-FHD'"
     },
@@ -3929,7 +3929,7 @@
   "openpli_py3_skins": [
     {
       "name": "Aglare-FHD",
-      "cmd": "wget https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd-pli.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/skins-aglare-fhd/skins-aglare-fhd-pli.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Aglare-FHD-PLI",
       "remove_cmd": "rm -rf '/usr/share/enigma2/Aglare-FHD-PLI'"
     },
@@ -3979,7 +3979,7 @@
   "openspa_skins": [
     {
       "name": "Aglare-FHD",
-      "cmd": "wget https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/skins-aglare-fhd/skins-aglare-fhd.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Aglare-FHD",
       "remove_cmd": "rm -rf '/usr/share/enigma2/Aglare-FHD'"
     },
@@ -4005,7 +4005,7 @@
   "openvix_skins": [
     {
       "name": "Aglare-FHD",
-      "cmd": "wget https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd-pli.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/skins-aglare-fhd/skins-aglare-fhd-pli.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Aglare-FHD-PLI",
       "remove_cmd": "rm -rf '/usr/share/enigma2/Aglare-FHD-PLI'"
     },
@@ -4055,7 +4055,7 @@
   "pure2_skins": [
     {
       "name": "Aglare-FHD",
-      "cmd": "wget https://github.com/emilnabil/aglare/raw/refs/heads/main/skins-aglare-fhd.sh -O - | /bin/sh",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/skins-aglare-fhd/skins-aglare-fhd.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Aglare-FHD",
       "remove_cmd": "rm -rf '/usr/share/enigma2/Aglare-FHD'"
     },
