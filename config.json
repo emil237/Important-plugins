@@ -2484,7 +2484,7 @@
       "path": "/usr/bin/python3"
     },
     {
-      "name": "Check Your Reciver (تشخيص ومعلومات مهمة عن جهازك)",
+      "name": "CheckYourReciver (تشخيص ومعلومات مهمة عن جهازك)",
       "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/emilbox_diag.sh -O - | /bin/sh",
       "path": "/etc/enigma2/python3"
     },
