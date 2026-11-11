@@ -2496,6 +2496,11 @@
       "path": "/usr/bin/python3"
     },
     {
+      "name": "CheckYourReciver (تشخيص ومعلومات مهمة عن جهازك)",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/emilbox_diag.sh -O - | /bin/sh",
+      "path": "/etc/enigma2/python3"
+    },
+    {
       "name": "Opkg Tools_1.4 (حزمة مهمة للصورة)",
       "cmd": "wget https://github.com/emil237/plugins/raw/refs/heads/main/opkg.sh -O - | /bin/sh",
       "path": "/usr/bin/opkg"
