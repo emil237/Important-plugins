@@ -1164,6 +1164,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SilentRunner'"
     },
     {
+      "name": "SimplyCams (شاهد كاميرات منزلك)",
+      "cmd": "wget https://raw.githubusercontent.com/Ahmed-Mohammed-Abbas/SimplyCams/main/installer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SimplyCams",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SimplyCams'"
+    },
+    {
       "name": "SimplySports (معلومات رياضة)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SimplySports",
@@ -2482,11 +2488,6 @@
       "name": "Update Enigma2 All Python (تحميل الحزم المهمة)",
       "cmd": "wget https://raw.githubusercontent.com/emil237/updates-enigma/main/update-all-python.sh -O - | /bin/sh",
       "path": "/usr/bin/python3"
-    },
-    {
-      "name": "CheckYourReciver (تشخيص ومعلومات مهمة عن جهازك)",
-      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/emilbox_diag.sh -O - | /bin/sh",
-      "path": "/etc/enigma2/python3"
     },
     {
       "name": "Opkg Tools_1.4 (حزمة مهمة للصورة)",
