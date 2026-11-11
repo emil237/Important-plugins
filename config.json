@@ -1086,6 +1086,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SaadQuranHub'"
     },
     {
+      "name": "SatelliteTransponderUpdater (تحديث ملف الترددات اوتوماتيك)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/TransponderUpdater/TransponderUpdater.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SatelliteTransponderUpdater",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SatelliteTransponderUpdater'"
+    },
+    {
       "name": "SatelliWebLiveFeeds_py3.12 (فيدات)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.12.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Fatima",
