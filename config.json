@@ -168,7 +168,7 @@
     },
     {
       "name": "RaedQuickSignal (بيان إشارة للقنوات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal'"
     },
@@ -1156,6 +1156,12 @@
       "cmd": "wget https://raw.githubusercontent.com/emil237/sherlockmod/main/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/Sherlockmod",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/Sherlockmod'"
+    },
+    {
+      "name": "SignalMeterFirebase (معايرة أشارة القناة)",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/SignalMeterFirebase/SignalMeterFirebase.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SignalMeterFirebase",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SignalMeterFirebase'"
     },
     {
       "name": "SilentRunner (تشغيل سكريبتات صامت)",
