@@ -126,7 +126,7 @@
     },
     {
       "name": "BootlogoSwapper V2.4 (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.4.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/BootlogoSwapper_v2.4.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper'"
     },
@@ -168,7 +168,7 @@
     },
     {
       "name": "RaedQuickSignal (بيان إشارة للقنوات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal'"
     },
@@ -1063,7 +1063,7 @@
     },
     {
       "name": "RaedQuickSignal (بيان إشارة للقنوات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal'"
     },
@@ -2972,7 +2972,7 @@
     },
     {
       "name": "jedimakerxtream (تحويل ال iptv الي مفضلات السات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/jedimakerxtream/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/jedimakerxtream/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/JediMakerXtream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/JediMakerXtream' /etc/enigma2/jedimakerxtream"
     },
@@ -3145,7 +3145,7 @@
     },
     {
       "name": "Xklass-iptv (مشغل iptv)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xklass/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/xklass/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XKlass",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XKlass'"
     },
@@ -4264,19 +4264,19 @@
   "plugin-xtreamity_skins": [
     {
       "name": "Abstract",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-abstract.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/xtreamity/installer-skin-abstract.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/Abstract",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/Abstract'"
     },
     {
       "name": "qatar2022",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-qatar.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/xtreamity/installer-skin-qatar.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/qatar2022",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/qatar2022'"
     },
     {
       "name": "Toys",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer-skin-toys.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/xtreamity/installer-skin-toys.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/Toys",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/Toys'"
     }
