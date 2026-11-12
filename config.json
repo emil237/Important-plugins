@@ -132,7 +132,7 @@
     },
     {
       "name": "BouquetMakerXtream (تحويل iptv الي المفضلات)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream' /etc/enigma2/bouquetmakerxtream"
     },
@@ -144,7 +144,7 @@
     },
     {
       "name": "CrashLogoViewer_1.9 (تصفح الكراشات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.9.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/crashlogviewer/crashlogviewer_1.9.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer'"
     },
@@ -168,7 +168,7 @@
     },
     {
       "name": "RaedQuickSignal (بيان إشارة للقنوات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/RaedQuickSignal/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal'"
     },
@@ -185,12 +185,6 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueScan'"
     },
     {
-      "name": "SkyBlue-Sharing (بلجن شيرنج متقدم جدا مع الصوتيات)",
-      "cmd": "wget https://updates.skyblue1.us/e2/install-skyblue.sh -O - | /bin/sh",
-      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlue",
-      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlue'"
-    },
-    {
       "name": "SubsSupportPro-By-Mohammed-Nasr (ترجمة الأفلام)",
       "cmd": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SubsSupport",
@@ -198,7 +192,7 @@
     },
     {
       "name": "Xstreamity (مشغل iptv)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/xtreamity/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XStreamity",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XStreamity'"
     },
@@ -210,12 +204,12 @@
     },
     {
       "name": "Cccam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-cccam.sh -O - | /bin/sh",
       "path": "/usr/bin/CCcamm"
     },
     {
       "name": "Ncam_v15.7",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam_v15.7.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-ncam_v15.7.sh -O - | /bin/sh",
       "path": "/usr/bin/ncamm"
     },
     {
@@ -655,19 +649,19 @@
     },
     {
       "name": "CrashLogoViewer_1.6 (تصفح الكراشات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/crashlogviewer/install-CrashLogViewer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer'"
     },
     {
       "name": "CrashLogoViewer_1.8 (تصفح الكراشات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.8.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/crashlogviewer/crashlogviewer_1.8.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer'"
     },
     {
       "name": "CrashLogoViewer_1.9 (تصفح الكراشات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/crashlogviewer/crashlogviewer_1.9.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/crashlogviewer/crashlogviewer_1.9.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CrashlogViewer'"
     },
@@ -2792,7 +2786,7 @@
     },
     {
       "name": "BouquetMakerXtream (تحويل iptv الي المفضلات)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/plugins/BouquetMakerXtream/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BouquetMakerXtream' /etc/enigma2/bouquetmakerxtream"
     },
@@ -2894,13 +2888,13 @@
     },
     {
       "name": "IpAudio 6.7 (py2) (مشغل صوتيات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/ipaudio/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPAudio",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPAudio'"
     },
     {
       "name": "IpAudio 7.4 (py3) (مشغل صوتيات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/ipaudio/ipaudio-7.4-ffmpeg.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPAudio",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPAudio'"
     },
@@ -2936,7 +2930,7 @@
     },
     {
       "name": "Iptosat_v1.8 (مشاهدة iptv علي قنوات السات)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/iptosat/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/iptosat/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/IPtoSAT",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/IPtoSAT'"
     },
@@ -3157,7 +3151,7 @@
     },
     {
       "name": "Xstreamity (مشغل iptv)",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/xtreamity/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/xtreamity/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/XStreamity",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XStreamity'"
     },
@@ -3689,6 +3683,12 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/openatv/nacht_7.1.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Nacht",
       "remove_cmd": "rm -rf '/usr/share/enigma2/Nacht'"
+    },
+    {
+      "name": "Obsidian-FHD",
+      "cmd": "wget https://github.com/emil182/emil-Nabil/raw/refs/heads/main/skins/skins-obsidian-fhd.sh -O - | /bin/sh",
+      "path": "/usr/share/enigma2/Obsidian-FHD",
+      "remove_cmd": "rm -rf '/usr/share/enigma2/Obsidian-FHD'"
     },
     {
       "name": "Op-Artkoala-FHD",
