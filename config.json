@@ -1326,12 +1326,6 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/XMLupdatebyiet5'"
     },
     {
-      "name": "Xtraevent_4.6 (لوجو البرامج)",
-      "cmd": "wget https://github.com/emil237/download-plugins/raw/main/Xtraevent-v4.6.sh -O - | /bin/sh",
-      "path": "/usr/lib/enigma2/python/Plugins/Extensions/xtraEvent",
-      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/xtraEvent'"
-    },
-    {
       "name": "xtraevent_6.890_All-Python (لوجو البرامج)",
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent-6.890.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/xtraEvent",
@@ -2209,85 +2203,85 @@
   "bootlogos": [
     {
       "name": "BootlogoSwapper Egami (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Egami.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/bootLogoswapper-Egami.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperEgami",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperEgami'"
     },
     {
       "name": "BootlogoSwapper Atv (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Atv.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/bootlogoswapper-Atv.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperATV",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperATV'"
     },
     {
       "name": "BootlogoSwapper Pli (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-pli.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/bootlogoswapper-pli.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperOpenpli",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperOpenpli'"
     },
     {
       "name": "BootlogoSwapper OpenBH (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenBH.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/bootlogoswapper-OpenBH.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperOpenBh",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperOpenBh'"
     },
     {
       "name": "BootlogoSwapper OpenSpa (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootLogoSwapper-openspa.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/BootLogoSwapper-openspa.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperSPA",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperSPA'"
     },
     {
       "name": "BootlogoSwapper OpenVix (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-OpenVix.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/bootlogoswapper-OpenVix.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper-openvix",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper-openvix'"
     },
     {
       "name": "BootlogoSwapper-PURE2 (بوت لوجو متعدد)",
-      "cmd": "wget -O - http://dreambox4u.com/emilnabil237/script/bootLogoswapper-Pure2.sh | /bin/sh",
+      "cmd": "wget -O - http://dreambox4u.com/emilnabil237/emil/script/bootLogoswapper-Pure2.sh | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperPure2",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapperPure2'"
     },
     {
       "name": "BootlogoSwapper Christmas (بوت لوجو متعدد)",
-      "cmd": "wget -O - https://dreambox4u.com/emilnabil237/script/bootlogoswapper-christmas.sh | /bin/sh",
+      "cmd": "wget -O - https://dreambox4u.com/emilnabil237/emil/script/bootlogoswapper-christmas.sh | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogo-Swapper-Christmas",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogo-Swapper-Christmas'"
     },
     {
       "name": "BootlogoSwapper Kids (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-kids.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/bootlogoswapper-kids.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper'"
     },
     {
       "name": "BootlogoSwapper Ramadan (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogo-swapper-ramadan.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/bootlogo-swapper-ramadan.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper'"
     },
     {
       "name": "BootlogoSwapper Eid-Aldha (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/bootlogoswapper-Eid-Aldha.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/bootlogoswapper-Eid-Aldha.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper'"
     },
     {
       "name": "BootlogoSwapper V2.1 (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.1.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/BootlogoSwapper_v2.1.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper'"
     },
     {
       "name": "BootlogoSwapper V2.3 (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.3.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/BootlogoSwapper_v2.3.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper'"
     },
     {
       "name": "BootlogoSwapper V2.4 (بوت لوجو متعدد)",
-      "cmd": "wget http://dreambox4u.com/emilnabil237/script/BootlogoSwapper_v2.4.sh -O - | /bin/sh",
+      "cmd": "wget http://dreambox4u.com/emilnabil237/emil/script/BootlogoSwapper_v2.4.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/BootLogoSwapper'"
     }
@@ -3193,7 +3187,7 @@
     },
     {
       "name": "Neoboot 9.65 VIP",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/neoboot-v9.65/iNB.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/neoboot-v9.65/iNB.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot"
     },
     {
@@ -3235,17 +3229,17 @@
   "softcams": [
     {
       "name": "Cccam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-cccam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-cccam.sh -O - | /bin/sh",
       "path": "/usr/bin/CCcamm"
     },
     {
       "name": "gosatplus-ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-gosatplus-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/goncam"
     },
     {
       "name": "gosatplus-oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-gosatplus-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-gosatplus-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/gooscam"
     },
     {
@@ -3265,32 +3259,32 @@
     },
     {
       "name": "Hold-flag-ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Hold-flag-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/script/Hold-flag-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/ncamm"
     },
     {
       "name": "Hold-flag-Oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Hold-flag-Oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/script/Hold-flag-Oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamm"
     },
     {
       "name": "Ncam_v15.7",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam_v15.7.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-ncam_v15.7.sh -O - | /bin/sh",
       "path": "/usr/bin/ncamm"
     },
     {
       "name": "Ncam_v15.8",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/ncamm"
     },
     {
       "name": "Oscam_By-Mohamed-Os",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamm"
     },
     {
       "name": "Oscam-11.726-By-lenuxsat",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/oscam-by-lenuxsat/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/oscam-by-lenuxsat/installer.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamm"
     },
     {
@@ -3300,72 +3294,72 @@
     },
     {
       "name": "oscamicam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-oscamicam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-oscamicam.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamicamm"
     },
     {
       "name": "powercam_v2-icam-arm",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/powercam/installer.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/powercam/installer.sh -O - | /bin/sh",
       "path": "/usr/bin/powercamm"
     },
     {
       "name": "powercam-Ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-powercam-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/powercamm"
     },
     {
       "name": "powercam-Oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-powercam-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-powercam-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/powercamm"
     },
     {
       "name": "Restore-flag-ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Restore-flag-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/script/Restore-flag-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/ncamm"
     },
     {
       "name": "Restore-flag-oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/script/Restore-flag-Oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/script/Restore-flag-Oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/oscamm"
     },
     {
       "name": "Revcam-Ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-revcam-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/revcamm"
     },
     {
       "name": "Revcam-Oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-revcam-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/revcamm"
     },
     {
       "name": "Revcam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-revcam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-revcam.sh -O - | /bin/sh",
       "path": "/usr/bin/revcamm"
     },
     {
       "name": "Supcam-Ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-supcam-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/supcamm"
     },
     {
       "name": "Supcam-Oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-supcam-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-supcam-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/supcamm"
     },
     {
       "name": "Ultracam-Ncam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-ncam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-ultracam-ncam.sh -O - | /bin/sh",
       "path": "/usr/bin/ultracamm"
     },
     {
       "name": "Ultracam-Oscam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam-oscam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-ultracam-oscam.sh -O - | /bin/sh",
       "path": "/usr/bin/ultracamm"
     },
     {
       "name": "Ultracam",
-      "cmd": "wget https://dreambox4u.com/emilnabil237/emu/installer-ultracam.sh -O - | /bin/sh",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/emu/installer-ultracam.sh -O - | /bin/sh",
       "path": "/usr/bin/ultracamm"
     }
   ],
