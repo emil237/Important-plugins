@@ -179,6 +179,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SetPicon'"
     },
     {
+      "name": "SkyBlueBlindScan (بحث عشوائي ذكي عن الترددات والفيدات)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/SkyBlueBlindScan/SkyBlueBlindScan.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueBlindScan",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueBlindScan'"
+    },
+    {
       "name": "SkyBlueScan (تنظيم احترافي لقوائم الاقمار والمفضلات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/SkyBlueScan/SkyBlueScan.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueScan",
@@ -1180,6 +1186,12 @@
       "cmd": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SimplySports/SimplySports.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/SimplySports",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SimplySports'"
+    },
+    {
+      "name": "SkyBlueBlindScan (بحث عشوائي ذكي عن الترددات والفيدات)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/SkyBlueBlindScan/SkyBlueBlindScan.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueBlindScan",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueBlindScan'"
     },
     {
       "name": "SkyBlueScan (تنظيم احترافي لقوائم الاقمار والمفضلات)",
@@ -3724,6 +3736,12 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/skins/script/SKIN-egami-premium--blue-fhd-py3.sh -O - | /bin/sh",
       "path": "/usr/share/enigma2/Premium-FHD-Blue",
       "remove_cmd": "rm -rf '/usr/share/enigma2/Premium-FHD-Blue'"
+    },
+    {
+      "name": "Sky Blue Team-FHD",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/SkyBlueSkins/SkyBlueSkins.sh -O - | /bin/sh",
+      "path": "/usr/share/enigma2/SkyBlueLumina",
+      "remove_cmd": "rm -rf '/usr/share/enigma2/SkyBlueLumina'"
     },
     {
       "name": "XDreamy-FHD",
