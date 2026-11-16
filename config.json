@@ -3186,6 +3186,11 @@
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/EgamiBoot"
     },
     {
+      "name": "Neoboot 10.0 VIP-Mod-Eslam",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/neoboot/iNB_10.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot"
+    },
+    {
       "name": "Neoboot 9.65 VIP",
       "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/neoboot-v9.65/iNB.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot"
