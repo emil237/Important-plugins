@@ -26,6 +26,11 @@
       "icon": "plugins.png"
     },
     {
+      "title": "Sky Blue",
+      "section": "skyblue",
+      "icon": "skyblue.png"
+    },
+    {
       "title": "Novaler",
       "section": "novaler",
       "icon": "novaler_icon.png"
