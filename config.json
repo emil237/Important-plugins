@@ -394,6 +394,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SatVenusPanel'"
     },
     {
+      "name": "SkyBlueStore (لوحة تحميل الإضافات)",
+      "cmd": "wget https://updates.skyblue1.us/e2/install-skybluestore.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueStore",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/SkyBlueStore'"
+    },
+    {
       "name": "Tspanel (لوحة تحميل الإضافات)",
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/tspanel/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/TSpanel",
@@ -610,6 +616,12 @@
       "cmd": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccaminfo/cccaminfo_py3.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/CCcamInfo",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/CCcamInfo'"
+    },
+    {
+      "name": "ChannelColorizer (التحكم في اختيار لون اسماء القنوات المفتوحة والمشفرة)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/ChannelColorizer/ChannelColorizer.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/ChannelColorizer",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/ChannelColorizer'"
     },
     {
       "name": "ChannelLingo (مترجم القنوات الاجنبيه)",
@@ -3142,6 +3154,12 @@
       "cmd": "wget https://dreambox4u.com/emilnabil237/plugins/vavoo/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/vavoo",
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/vavoo'"
+    },
+    {
+      "name": "UltraAudio (مشغل صوتيات)",
+      "cmd": "wget https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/UltraAudio",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/UltraAudio'"
     },
     {
       "name": "Xc_Plugin_Forever (مشغل iptv)",
