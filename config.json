@@ -912,6 +912,12 @@
       "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/KeyAdder'"
     },
     {
+      "name": "KidsSafeBouquets (حجب القنوات الاباحية)",
+      "cmd": "wget https://dreambox4u.com/emilnabil237/emil/plugins/KidsSafeBouquets/KidsSafeBouquets.sh -O - | /bin/sh",
+      "path": "/usr/lib/enigma2/python/Plugins/Extensions/KidsSafeBouquets",
+      "remove_cmd": "rm -rf '/usr/lib/enigma2/python/Plugins/Extensions/KidsSafeBouquets'"
+    },
+    {
       "name": "LiveFeed",
       "cmd": "wget https://live-feed.net/enigma2/installer.sh -O - | /bin/sh",
       "path": "/usr/lib/enigma2/python/Plugins/Extensions/LiveFeed",
